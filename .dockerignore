@@ -1,0 +1,6 @@
+docker-compose-staging.yml
+docker-compose-prod.yml
+node_modules
+npm-debug.log
+prod.Dockerfile
+staging.Dockerfile

@@ -1,0 +1,16 @@
+[
+    {"title":"desktop version","image_data": [
+        {"id":1, "name":"promo 1","source":"https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%201264%20x%20500%20%28BALI%29.jpg"},
+        {"id":2, "name":"promo 2","source":"https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%201264%20x%20500%20%28LAMAITUHEMAT%29.jpg"},
+        {"id":3, "name":"promo 3","source":"https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%201264%20x%20500%20%28MEMBERBARUMEI%29.jpg"},
+        {"id":4, "name":"promo 4","source":"https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%201264%20x%20500%20%28SPESIALMEI%29.jpg"}
+    ]
+    },
+    {"title":"mobile version", "image_data": [
+        {"id":1, "name":"promo 1","source":"https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%20326%20x%20500%20%28BALI%29.jpg"},
+        {"id":2, "name":"promo 2","source":"https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%20326%20x%20500%20%28LAMAITUHEMAT%29.jpg"},
+        {"id":3, "name":"promo 3","source":"https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%20326%20x%20500%20%28MEMBERBARUMEI%29.jpg"},
+        {"id":4, "name":"promo 4","source": "https://maimedia.sgp1.cdn.digitaloceanspaces.com/sharecar/promo-slider/PROMO%20326%20x%20500%20%28SPESIALMEI%29.jpg"}
+    ]
+    }
+]

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-[#f4f4f4];
+  }
+}
+
+@layer components {
+  p {
+    @apply text-sc-grey;
+  }
+
+  .sc-blue-btn {
+    @apply p-2 md:p-4 ring-2 ring-sc-blue bg-sc-blue hover:bg-sc-light rounded-full outline-none;
+  }
+
+  .sc-light-btn {
+    @apply p-2 md:p-4 ring-2 ring-sc-blue hover:ring-sc-light hover:bg-sc-blue bg-transparent rounded-full outline-none;
+  }
+
+  .paragraph-news {
+    @apply text-base font-medium text-sc-dark;
+  }
+
+  .gardient {
+    @apply bg-gradient-to-r from-sc-green to-sc-blue;
+  }
+
+  .underlinex {
+    @apply relative text-sm font-medium before:bg-gradient-to-r from-sc-green to-sc-blue before:rounded-bl before:-bottom-1.5 before:h-0.5 before:inset-x-0 before:absolute before:transform before:origin-left before:scale-x-0 before:transition-all before:duration-200 hover:before:scale-x-100;
+  }
+  .underline_white {
+    @apply relative uppercase text-sm font-medium before:bg-sc-light before:rounded-bl before:-bottom-1.5 before:h-0.5 before:inset-x-0 before:absolute before:transform before:origin-left before:scale-x-0 before:transition-all before:duration-200 hover:before:scale-x-100;
+  }
+}
+
+#search-clear {
+  display: none;
+}
+
+/* h2 {
+    position: relative;
+    text-decoration: none;
+  }
+  h2::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: linear-gradient( 113.96deg,#3574BA , #8CC14E );
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  } */
+
+.ranges::-webkit-slider-thumb {
+  background-color: #ffff;
+  position: relative;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-style: none;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+  top: 50%;
+  color: #3333;
+  transform: translateY(-50%);
+  --filler-size: 100rem;
+  --filler-offset: 0.6rem;
+  box-shadow: hsl(212, 56, 47);
+}
+
+.denda-biaya ul {
+  padding-inline-start: 1rem;
+}
+.denda-biaya ol[type="1"] {
+  padding-inline-start: 1rem;
+  list-style: decimal;
+}
+
+.denda-biaya ol[type="a"] {
+  padding-inline-start: 1rem;
+  list-style: lower-alpha;
+}

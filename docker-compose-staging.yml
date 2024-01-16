@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+    sharecar:
+      image: registry.microad.co.id/share-car/share-car-fe:staging
+      ports:
+        - 3004:3004
+      container_name: sharecar-fe-staging
+      restart: unless-stopped
+      networks:
+        - staging-php-network
+
+networks:
+  staging-php-network:
+    external: true
+    name: docker-staging-php
+

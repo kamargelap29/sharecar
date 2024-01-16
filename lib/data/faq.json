@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Tentang Share Car",
+    "question": [
+      {
+        "title": "Apa itu Share Car ?",
+        "description": "Aplikasi sewa mobil self drive hitungan jam. Durasi sewa mulai dari 1 jam sampai 72 jam. Download aplikasi Share Car di playstore (Android) dan App store (IOS)."
+      },
+      {
+        "title": "Dimana Kami Bisa Menemukan Kendaraan ShareCar?",
+        "description": "Share Car dapat diakses di gedung-gedung perkantoran, pusat perbelanjaan dan apartemen di Jakarta. Jaringan Share Car terus diperluas untuk memberikan kenyamanan dan kemudahan bagi anggota kami."
+      },
+      {
+        "title": "Kapan waktu operasional Share Car?",
+        "description": "Share Car bisa digunakan setiap hari 24/7."
+      }
+    ]
+  },
+  {
+    "title": "Cara Bergabung",
+    "question": [
+      {
+        "title": "Bagaimana cara mendaftar menjadi member?",
+        "description": "Download aplikasi Share Car dan klik registrasi. Masukkan data personal dan daftarkan kartu kredit Anda. Hanya Warga Negara Indonesia yang sudah memiliki KTP dan SIM yang bisa mendaftar sebagai anggota."
+      },
+      {
+        "title": "Apakah ada biaya pendaftaran member?",
+        "description": "Tidak ada. Pendaftaran di aplikasi Share Car gratis."
+      },
+      {
+        "title": "Berapa lama verifikasi akun member ?",
+        "description": "Akun Anda akan diverifikasi dalam waktu 1x24 jam (hari kerja) setelah pendaftaran"
+      },
+      {
+        "title": "Apakah bisa mendaftar dengan lisensi asing?",
+        "description": "Bisa. Saat ini Warga Negara Asing dapat mendaftar dan menggunakan Share Car."
+      }
+    ]
+  },
+  {
+    "title": "Biaya Sewa",
+    "question": [
+      {
+        "title": "Berapa biaya sewa kendaraan Share Car per jam?",
+        "description": "Tarif sewa mulai dari Rp 27.000,-/ jam. Tarif akan berbeda berdasarkan tipe kendaraan."
+      },
+      {
+        "title": "Biaya sewa Share Car mencakup apa saja?",
+        "description": "Asuransi dan biaya parkir di lokasi pengambilan kendaraan"
+      },
+      {
+        "title": "Bagaimana cara pembayarannya?",
+        "description": "Pembayaran menggunakan kartu kredit yang sudah terdaftar di akun Anda."
+      }
+    ]
+  },
+  {
+    "title": "Cara Sewa dan Berkendara",
+    "question": [
+      {
+        "title": "Bagaimana cara reservasi kendaraan?",
+        "description": "Reservasi kendaraan bisa dilakukan di dalam aplikasi Share Car. Pilih lokasi dan atau list mobil yang tersedia, klik book dan kendaraan bisa langsung Anda gunakan. Konfirmasi via email akan dikirimkan kepada Anda jika reservasi sukses dilakukan. Pastikan untuk “unlock” kendaraan sebelum 15 menit setelah Anda melakukan booking"
+      },
+      {
+        "title": "Apakah bisa reservasi kendaraan beberapa hari sebelum pemakaian?",
+        "description": "Tidak bisa. Share Car hanya bisa digunakan untuk pemesanan segera pada saat ini."
+      },
+      {
+        "title": "Apakah Share Car bisa digunakan untuk perjalanan keluar kota?",
+        "description": "Saat ini Share Car bisa digunakan untuk perjalanan ke luar kota, namun masih terbatas sampai area Bandung."
+      },
+      {
+        "title": "Bagaimana cara mengambil kendaraan setelah reservasi?",
+        "description": "Ambil kendaraan di lokasi parkir yang sudah ditentukan. Buka aplikasi Share Car Anda. Klik simbol unlock untuk membuka kendaraan. Kini Anda siap berkendara dengan Share Car. Hampir seluruh kendaraan Share Car dilengkapi “start button”, dan tidak memerlukan kunci untuk menyalakan kendaraan."
+      },
+      {
+        "title": "Bagaimana cara mengembalikan kendaraan?",
+        "description": "Ketika perjalanan Anda berakhir, kembalikan kendaraan ke lokasi dan tempat parkir yang sama ketika kendaraan itu diambil. Sebelum mengunci mobil, periksa dan pastikan tidak ada barang pribadi yang tertinggal."
+      },
+      {
+        "title": "Bagaimana cara membuka/ mengunci kendaraan Share Car?",
+        "description": "Klik simbol gembok untuk buka/ kunci kendaraan pada aplikasi Share Car."
+      }
+    ]
+  },
+  {
+    "title": "Metode Pembayaran",
+    "question": [
+      {
+        "title": "Bagaimana metode pembayaran Share Car?",
+        "description": "Share Car hanya menerima pembayaran melalui kartu kredit."
+      },
+      {
+        "title": "Apakah ada metode pembayaran selain kartu kredit?",
+        "description": "Tidak ada. Saat ini metode pembayaran yang tersedia di Share Car hanya menggunakan kartu kredit."
+      },
+      {
+        "title": "Saya sudah mendaftarkan kartu kredit, tetapi mengapa selalu gagal/error/tidak berhasil?",
+        "description": "Pastikan data kartu kredit yang kamu masukkan sudah benar dan sesuai. Share Car tidak bisa menggunakan kartu Debit online seperti Jenius dan provider bank Debit online lainnya. \n Jika masih ada kendala, kamu dapat menghubungi tim CS kami melalui Whatsapp di nomor +62 812-9555-5927."
+      },
+      {
+        "title": "Bagaimana cara pendaftaran kartu kredit pada aplikasi?",
+        "description": "Buka aplikasi Share Car \n  Masukkan nama lengkap sesuai dengan nama pada kartu kredit Anda. \n Masukkan bulan dan tahun kedaluwarsa serta nomor CVV. \n Klik “submit”"
+      },
+      {
+        "title": "Bagaimana cara memperbarui dan mengubah data kartu kredit?",
+        "description": "Buka aplikasi Share Car \n Masuk menggunakan akun yang terdaftar \n Tekan simbol garis 3 (tiga) pada pojok kiri atas \n Pilih pengaturan \n Pilih ubah detail kartu \n Tekan tombol ganti \n Isi data kartu kredit Anda \n Tekan tombol submit ketika Anda selesai. "
+      }
+    ]
+  },
+  {
+    "title": "Aturan Pemakaian",
+    "question": [
+      {
+        "title": "Bolehkah saya reservasi kendaraan Share Car untuk orang lain?",
+        "description": "Tidak, hanya Anggota yang memesan kendaraan Share Car yang dapat menggunakan Share Car. Melanggar Syarat & Ketentuan Share Car dapat menyebabkan Akun Anda ditangguhkan."
+      },
+      {
+        "title": "Dapatkah saya membatalkan reservasi saya?",
+        "description": "Anda dapat membatalkan pemesanan kendaraan sebelum Anda memulai perjalanan dengan mobil Share Car."
+      },
+      {
+        "title": "Apakah boleh merokok saat menggunakan kendaraan?",
+        "description": "Anda dilarang merokok di dalam kendaraan Share Car. Biaya denda akan dikenakan jika Anda merokok dalam kendaraan."
+      },
+      {
+        "title": "Bisakah saya menggunakan jasa valet untuk parkir kendaraan Share Car?",
+        "description": "Tidak bisa. Karena hanya Anda yang memiliki akses untuk buka/tutup kendaraan melalui aplikasi."
+      }
+    ]
+  },
+  {
+    "title": "Pengisian Bahan Bakar",
+    "question": [
+      {
+        "title": "Bagaimana jika bahan bakar kendaraan habis?",
+        "description": "Member Share Car wajib mengembalikan kendaraan dengan jumlah bahan bakar yang sama sesuai indikator BBM mobil saat Anggota memulai penggunaan mobil. Jika dalam pengembaliannya terjadi ketidaksesuaian, maka Anggota akan dikenakan biaya tambahan dari selisih jumlah BBM saat pengambilan dan pengembalian dengan nominal sebesar Rp9.500,- / liter (Harga belum termasuk PPN)."
+      }
+    ]
+  },
+  {
+    "title": "Akun",
+    "question": [
+      {
+        "title": "Bagaimana cara untuk membuka Akun saya yang terkunci?",
+        "description": "Anda dapat menghubungi Team Share Car untuk membuka kembali Akun Anda yang terkunci lalu Anda wajib melakukan perubahan password dengan cara menekan forgot password pada aplikasi Anda."
+      }
+    ]
+  }
+]

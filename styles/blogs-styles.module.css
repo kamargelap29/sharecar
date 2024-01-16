@@ -1,0 +1,32 @@
+.blogs {
+  @apply text-lg leading-relaxed;
+}
+
+.blogs p,
+.blogs ul,
+.blogs ol,
+.blogs blockquote,
+.blogs span {
+  @apply my-6;
+}
+
+.blogs h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug capitalize;
+}
+
+.blogs h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug capitalize;
+}
+
+.blogs a,
+.blogs h2 {
+  @apply text-sc-blue;
+}
+
+.blogs p {
+  @apply break-words text-sc-dark whitespace-pre-line;
+}
+
+.blogs img {
+  @apply mx-auto;
+}

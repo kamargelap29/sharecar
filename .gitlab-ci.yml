@@ -1,0 +1,83 @@
+# This file is a template, and might need editing before it works on your project.
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/ee/development/cicd/templates.html
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Docker.gitlab-ci.yml
+
+# Build a Docker image with CI/CD and push to the GitLab registry.
+# Docker-in-Docker documentation: https://docs.gitlab.com/ee/ci/docker/using_docker_build.html
+#
+# This template uses one generic job with conditional builds
+# for the default branch and all other (MR) branches.
+stages:
+  - build
+  - deploy
+
+build-staging:
+  # Use the official docker image.
+  stage: build
+  before_script:
+    - docker login -u $CI_DEPLOY_USER -p $CI_DEPLOY_PASSWORD $CI_REGISTRY
+  variables:
+    IMAGE_NAME: "share-car-fe"
+    CI_PROJECT_PATH: "share-car"
+  script:
+    # BUILD IMAGE WITH COMMIT SHA
+    - docker system prune -f
+    - docker build -f staging.Dockerfile -t $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME:staging .
+    - docker push $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME:staging
+  tags:
+      - staging
+  only:
+    - staging
+  
+deploy-staging:
+  stage: deploy
+  environment:
+    name: staging
+    url: https://sharecar.staging.microad.co.id:444
+  script:
+    - docker-compose -f docker-compose-staging.yml pull
+    - docker-compose -f docker-compose-staging.yml up -d
+  tags:
+    - staging
+  only:
+    - staging
+
+build-production:
+  stage: build
+  before_script:
+    - docker login -u $CI_DEPLOY_USER -p $CI_DEPLOY_PASSWORD $CI_REGISTRY
+  variables:
+    IMAGE_NAME: "share-car-fe"
+    CI_PROJECT_PATH: "share-car"
+  script:
+    - docker system prune -f
+    # BUILD IMAGE WITH COMMIT SHA
+    - docker build -f prod.Dockerfile -t $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME:$CI_JOB_ID .
+
+    # RETAG IMAGE LATEST WITH DIGEST FROM PREVIOUS IMAGE 
+    #- IMAGE_ID=$(docker images | grep $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME | awk '{print $3}')
+    - docker tag $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME:$CI_JOB_ID $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME:stable
+
+    # PUSH IMAGE COMMIT SHA and LATEST
+    #- docker push $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME:$CI_JOB_ID
+    - docker push $CI_REGISTRY/$CI_PROJECT_PATH/$IMAGE_NAME:stable
+  only:
+    - production
+  tags:
+    - sharecar-prod
+
+deploy-production:
+  stage: deploy
+  environment:
+    name: production
+    url: http://$DOMAIN
+  script:
+    - docker-compose -f docker-compose-prod.yml pull
+    - docker-compose -f docker-compose-prod.yml up -d
+  only:
+    - production
+  tags:
+    - sharecar-prod
+

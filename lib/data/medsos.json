@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Facebook",
+    "href": "https://www.facebook.com/sharecarid",
+    "source": "/assets/images/medsos/Facebook.png"
+  },
+  {
+    "name": "Twitter",
+    "href": "https://twitter.com/ShareCarID",
+    "source": "/assets/images/medsos/Twitter.png"
+  },
+  {
+    "name": "Instagram",
+    "href": "https://www.instagram.com/sharecarid",
+    "source": "/assets/images/medsos/Instagram.png"
+  },
+  {
+    "name": "Youtube",
+    "href": "https://www.youtube.com/sharecar",
+    "source": "/assets/images/medsos/Youtube.png"
+  }
+]
